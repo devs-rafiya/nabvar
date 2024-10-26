@@ -1,0 +1,157 @@
+
+/* common css starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .row {
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+body{
+    font-family: poppins, Arial, Helvetica, sans-serif, sans-serif; 
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1240;
+    margin: auto;
+}
+
+.button-design {
+    background-color:#b88e2f;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    padding: 12px 36px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+/* common css Ends here */
+
+
+nav .logo
+
+{
+    width: 20%;
+    
+}
+nav .menu
+
+{
+    width: 50%;
+}
+nav .quickMenu
+
+{
+    width: 30%;
+}
+nav .menu ul{
+    padding: 20px;
+    justify-content: center;
+}
+
+nav .menu ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 38px 42.2px;
+}
+nav .quickMenu{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 22px 20px;
+    display: inline-block;
+}
+
+/* banner secotion Start */
+#banner{
+    background-image: url(../image/big\ banner.jpg);
+    height: 716px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 50px;
+    padding-top: 80px;
+    
+
+}
+
+.bannerlika {
+    width: 643px;
+    background-color: #ffe8ca;
+    padding: 62px 43px 37px;
+    margin-left: auto;
+    margin-right: 30px;
+    border-radius: 50px 0 50px; 
+    
+    
+    
+}
+
+.bannerlika h4 {
+    font-weight: 600px;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #333;
+}
+.bannerlika h1 {
+    font-weight: 700px;
+    font-size: 52px;
+    line-height: 125%;
+    color: #8b6b1f;
+    margin: 4px 0 17px;
+    
+    
+}
+.bannerlika p {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 46px ;
+    
+}
+.bannerlika a {
+padding: 25px 72px;
+border-radius: 20px 0 20px;
+}
+
+
+
+/* banner secotion End */
+
+
+
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.heading p{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.heading h2 {
+    color: black;
+}
